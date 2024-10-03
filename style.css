@@ -1,6 +1,6 @@
 body{
     color: white;
-    background-image: url(imgs/luxurious-car-parked-highway-with-illuminated-headlight-sunset_181624-60607.avif);
+    background-image: url(imgs/1597f5c4-0326-4927-a812-4dce7ddbcaf7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: max-content;
@@ -11,7 +11,7 @@ body{
 #main{
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
-    top: 10%;
+    top: 10%; 
     right: 10%;
     left: 10%;
     height: 80%;
