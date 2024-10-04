@@ -4,17 +4,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     width: max-content;
-    padding-top: 620px;
+    padding-top: 800px;
     background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
 }
 #main{
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 10%; 
     right: 10%;
     left: 10%;
-    height: 80%;
+    height: 75%;
 }
 #main h1{
  font-size: 50px;
@@ -26,6 +28,7 @@ body{
     margin: 15px 10px;
 }
 #nr{
+    border-radius: 20px;
     margin-left: 10px;
     margin-top: 20px;
     position: absolute;
@@ -39,7 +42,7 @@ body{
     font-size: 50px;
     position: inherit;
     top: 10%;
-    left: 10%;
+    left: 20%;
 }
 @media screen and (min-width: 700px) {
     #main p{
@@ -49,7 +52,9 @@ body{
     #nr{
         position: absolute;
         bottom: 10%;
+        top: 75%;
     }
+    
   }
   @media screen and (max-width: 550px){
     #nr h2{
@@ -58,10 +63,27 @@ body{
     #main h1{
         font-size: 40px;
     }
+    #main{
+        height: 70%;
+    }
+    #nr{
+        height: 50px;
+    }
   }
   @media screen and (min-width: 900px){
     #main {
        width: 700px;
       margin: 0 auto;
+    }
+    #nr{
+        top: 75%;
+    }
+  }
+  @media screen and (max-width: 700px){
+    #main{
+        height: 80%;
+    }
+    #nr h2{
+        font-size: 40px;
     }
   }
