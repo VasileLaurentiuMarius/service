@@ -44,15 +44,15 @@ body{
     top: 10%;
     left: 20%;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 900px) {
     #main p{
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 32px;
+        line-height: 25px;
     }
     #nr{
         position: absolute;
         bottom: 10%;
-        top: 75%;
+        top: 72%;
     }
     
   }
@@ -64,14 +64,12 @@ body{
         font-size: 40px;
     }
     #main{
-        height: 70%;
+        height: 45%;
     }
     #nr{
-        height: 50px;
+        height: 70px;
     }
-    #main{
-        height: 700px;
-    }
+    
   }
   @media screen and (min-width: 900px){
     #main {
@@ -83,13 +81,19 @@ body{
     #nr{
         top: 75%;
     }
+    #nr h2{
+        top: 3px;
+        left: 5%;
+        font-size: 3rem;
+    }
   }
   @media screen and (max-width: 700px){
     #main p{
-        font-size: 16px
+        font-size: 1rem ;
+        line-height: 20px;
     }
     #main{
-        height: 60%;
+        height: 80% ;
     }
     #nr h2{
         font-size: 2rem;
